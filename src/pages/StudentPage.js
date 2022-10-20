@@ -59,14 +59,14 @@ const StudentPage = () => {
         onSubmit={async (values, actions) => {
           if (!params.code) {
             await postStudentFunction(values)
-              .then(() => navigate("/"))
+              .then(() => navigate("/react-app/"))
               .catch((err) => {
                 console.log(err);
                 handleError(err.response.data.message);
               });
           } else {
             await updateStudentFunction(values)
-              .then(() => navigate("/"))
+              .then(() => navigate("/react-app/"))
               .catch((err) => {
                 console.log(err);
                 handleError(err.response.data.message);
