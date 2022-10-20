@@ -1,0 +1,51 @@
+.homePage {
+    padding: 25px;
+}
+
+.h1 {
+    margin: 15px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 25px 0;
+}
+
+.element {
+    width: 400px;
+    height: 250px;
+    margin: 25px 15px;
+    padding: 15px;
+    text-align: start;
+    border: 2px solid aqua;
+    border-radius: 5px;
+    box-shadow: 3px 3px rgba(0, 255, 255, 0.585);
+}
+
+.h3 {
+    margin: 8px 0;
+}
+
+.title {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.link {
+    text-decoration: none;
+    color: blue;
+}
+
+.buttons {
+    background: none;
+    display: flex;
+}
+
+.modal {
+    background: none;
+    color: aqua;
+    padding: 0;
+    margin: 0;
+}

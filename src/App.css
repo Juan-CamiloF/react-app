@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: rgb(52, 20, 50);
+}
+
+.app {
+  color: aliceblue;
+  text-align: center;
+  font-family: 'Montserrat';
+}
