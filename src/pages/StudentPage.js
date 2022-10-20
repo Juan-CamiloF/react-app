@@ -51,7 +51,7 @@ const StudentPage = () => {
   return (
     <div className="studentPage">
       <h1 className="h1"> {params.code ? "StudenUpdate" : "StudenPost"}</h1>
-      <Link className="link" to="/">
+      <Link className="link" to="/react-app/">
         Go back
       </Link>
       <Formik

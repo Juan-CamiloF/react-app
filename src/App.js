@@ -12,8 +12,8 @@ const App = () => {
         <Router>
           <Routes>
             <Route path="react-app/" element={<HomePage />} />
-            <Route path="react-app/new" element={<StudentPage />} />
-            <Route path="react-app/update/:code" element={<StudentPage />} />
+            <Route path="/new" element={<StudentPage />} />
+            <Route path="/update/:code" element={<StudentPage />} />
             <Route path="*" element={<NotFoundPage />} />
           </Routes>
         </Router>
