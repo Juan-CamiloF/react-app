@@ -1,5 +1,5 @@
 import axios from "axios";
-let backend = "https://actividad1-production.up.railway.app"
+let backend = "http://54.147.43.234";
 export const getStudents = async () =>
   await axios.get(`${backend}/api/estudiantes`);
 
@@ -8,15 +8,11 @@ export const postStudent = async (student) => {
 };
 
 export const deleteStudent = async (codigoEstudiante) => {
-  return await axios.delete(
-    `${backend}/api/estudiante/${codigoEstudiante}`
-  );
+  return await axios.delete(`${backend}/api/estudiante/${codigoEstudiante}`);
 };
 
 export const getStudent = async (codigoEstudiante) => {
-  return await axios.get(
-    `${backend}/api/estudiante/${codigoEstudiante}`
-  );
+  return await axios.get(`${backend}/api/estudiante/${codigoEstudiante}`);
 };
 
 export const updateStudent = async (student) => {
